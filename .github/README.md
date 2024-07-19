@@ -34,3 +34,21 @@ Since I use a desktop enviroment, most of the apps I use are centered around KDE
 - Fonts: [Inter](https://github.com/rsms/inter) and [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
 My personal website is not ready yet (skill issue) but I'll copy it there too once its ready.
+
+## Commit guidelines
+
+Write your commit message in this way:
+
+**[type] ( [scope?] ): [description]**
+
+Types:
+
+- feat: A new feature
+- fix: A bug fix
+- refactor: A code change that neither fixes a bug nor adds a feature
+- doc: Documentation changes
+- build: Changes that affect the build system or external dependencies
+- chore: Other changes that don\'t modify src or test files
+- revert: Reverts a previous commit
+
+Scope: Optional, refers to the part of code changed in this commit.
