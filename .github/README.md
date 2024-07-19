@@ -2,6 +2,8 @@
 
 ![Screenshot](polonium.webp)
 
+> _[Breeze Dark](https://invent.kde.org/plasma/breeze) theme with [Polonium](https://github.com/zeroxoneafour/polonium), an autotile manager for Plasma 6._
+
 ## Introduction
 
 My dotfiles and config files resides here. Feel free to modify and use as per your likings.
