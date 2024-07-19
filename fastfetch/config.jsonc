@@ -1,0 +1,51 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": "~/.config/fastfetch/arci.txt",
+    "color": {
+      "1": "yellow"
+    },
+    "padding": {
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "key": "->"
+    },
+    {
+      "type": "os",
+      "key": "->"
+    },
+    {
+      "type": "kernel",
+      "key": "->"
+    },
+    {
+      "type": "packages",
+      "key": "->"
+    },
+    {
+      "type": "memory",
+      "key": "->"
+    },
+    {
+      "type": "terminal",
+      "key": "->"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 4,
+      "symbol": "circle"
+    },
+    "break"
+  ]
+}

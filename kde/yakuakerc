@@ -1,0 +1,16 @@
+[Animation]
+Frames=20
+
+[Appearance]
+HideSkinBorders=true
+Translucency=true
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+DynamicTabTitles=true
+KeepOpen=false
+ShowTabBar=false
+ShowTitleBar=false
+Width=60

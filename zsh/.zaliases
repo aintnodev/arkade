@@ -1,0 +1,49 @@
+#!/bin/sh
+
+# settings for common commands
+alias cp="cp -ui"
+alias mv="mv -ui"
+alias rm="rm -ri"
+alias mkd="mkdir -pv"
+alias ls="eza --icons --tree --level=1"
+alias lf="lfcd"
+alias locate="plocate"
+alias trp="trash-put"
+alias trr="trash-restore"
+alias cat="bat"
+alias grep="grep --color=always"
+alias tree="eza --icons --tree"
+alias top="btop"
+
+# application aliases
+alias v="$EDITOR"
+alias vim="$EDITOR"
+alias p="paru"
+alias ytd="yt-dlp --no-mtime -o '$XDG_DOWNLOADS_DIR/%(title)s.%(ext)s'"
+
+# aliases to clean up home directory
+alias svn="svn --config-dir $XDG_CONFIG_HOME/subversion"
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+
+# git aliases
+alias g="git"
+alias gst="git status"
+alias gc="git commit"
+alias ga="git add"
+alias gpl="git pull"
+alias gpom="git pull origin master"
+alias gpu="git push"
+alias gpuom="git push origin master"
+alias gd="git diff"
+alias gch="git checkout"
+alias gnb="git checkout -b"
+alias gac="git add . && git commit"
+alias grs="git restore --staged ."
+alias gre="git restore"
+alias gr="git remote"
+alias gcl="git clone"
+alias glg="git log --decorate=full --graph --abbrev-commit"
+alias gt="git ls-tree -r master --name-only"
+alias grm="git remote"
+alias gb="git branch"
+alias gf="git fetch"
