@@ -17,7 +17,7 @@ browser_firfox="firefox"
 sys_apps="appmenu-gtk-module dosfstools fwupd grub iwd openresolv network-manager-applet networkmanager libdbusmenu-glib powerdevil power-profiles-daemon xdg-utils"
 
 user_apps="gnome-boxes marble normcap songrec telegram-desktop"
-dev_apps="android-tools base base-devel cmatrix code code-features code-marketplace cowsay curl eza fastfetch figlet git htop lf npm wget jre-openjdk python-pip reflector thefuck vim zed zellij zsh"
+dev_apps="android-tools base base-devel chroma-bin cptv-git cmatrix vscodium-bin vscodium-bin-features vscodium-bin-marketplace cowsay curl eza fastfetch figlet git htop lf npm wget jre-openjdk python-pip reflector thefuck vim zed zellij zsh"
 
 # ╔═╗╔═╗╔╗╔╔╦╗╔═╗
 # ╠╣ ║ ║║║║ ║ ╚═╗
