@@ -25,6 +25,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 Scale=1.25
 
 [org.kde.kdecoration2]
+BorderSize=Tiny
 BorderSizeAuto=false
 ButtonsOnLeft=N
 ShowToolTips=false
