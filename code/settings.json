@@ -1,19 +1,25 @@
 {
-  "gutterpreview.showImagePreviewOnGutter": false, // Requires kisstkondoros.vscode-gutter-preview
-  "workbench.iconTheme": "material-icon-theme", // Requires pkief.material-icon-theme
+  "gutterpreview.showImagePreviewOnGutter": false,
+  "workbench.iconTheme": "material-icon-theme",
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
-  "editor.fontFamily": "JetBrains Mono", // Requires ttf-jetbrains-mono
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.guides.bracketPairs": "active",
   "editor.tabSize": 2,
   "editor.cursorStyle": "block",
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // Requires esbenp.prettier-vscode
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Requires ttf-jetbrains-mono-nerd
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontWeight": "bold",
   "keyboard.dispatch": "keyCode",
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "livePreview.customExternalBrowser": "Firefox"
+  "livePreview.customExternalBrowser": "Firefox",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.gutterIconSet": "defaultOutline",
+  "window.menuBarVisibility": "toggle",
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "codeium.enableCodeLens": false,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  }
 }
