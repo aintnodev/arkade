@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # settings for common commands
-alias cp="cp -ui"
-alias mv="mv -ui"
-alias rm="rm -ri"
+alias cp="cp -uv"
+alias mv="mv -uv"
+alias rm="rm -rv"
 alias mkd="mkdir -pv"
 alias ls="eza --icons --tree --level=1"
 alias lf="lfcd"
@@ -17,9 +17,9 @@ alias top="btop"
 
 # application aliases
 alias v="$EDITOR"
-alias vim="$EDITOR"
-alias p="paru"
-alias ytd="yt-dlp --no-mtime -o '$XDG_DOWNLOADS_DIR/%(title)s.%(ext)s'"
+alias nvim="$EDITOR"
+alias code="codium"
+alias ytd="yt-dlp --no-mtime"
 
 # aliases to clean up home directory
 alias svn="svn --config-dir $XDG_CONFIG_HOME/subversion"
