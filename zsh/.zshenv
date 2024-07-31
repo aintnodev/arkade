@@ -17,6 +17,7 @@ export XDG_SCREENSHOTS_DIR="$HOME/Pictures/screenshots"
 export PATH="$PATH:${$(find ~/.local/bin -maxdepth 1 -type d -printf %p:)%%:}"
 
 # colors!
+export ZSH_COLORIZE_TOOL=chroma
 export BAT_THEME="ansi"
 
 # set the localization

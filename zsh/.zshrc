@@ -10,7 +10,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(colorize command-not-found encode64 thefuck vi-mode zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(colorize command-not-found thefuck vi-mode zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # source external files
