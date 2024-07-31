@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export NVM_DIR="$HOME/.config/nvm"
 
 # default apps
 export EDITOR="vim"
