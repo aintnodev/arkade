@@ -15,6 +15,7 @@ source $ZSH/oh-my-zsh.sh
 
 # source external files
 source $HOME/.zaliases
+source $HOME/.zshenv
 
 # cd to folder when quitting lf (terminal file manager)
 lfcd () {
