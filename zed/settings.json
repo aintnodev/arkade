@@ -7,9 +7,6 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "terminal": {
-    "dock": "bottom"
-  },
   "telemetry": {
     "metrics": false
   },
