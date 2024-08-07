@@ -11,6 +11,9 @@
     "metrics": false
   },
   "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "on_yank"
+  },
   "ui_font_size": 16,
   "ui_font_family": "Inter",
   "theme": {
