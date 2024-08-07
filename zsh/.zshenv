@@ -2,8 +2,8 @@ export ZSH="$HOME/.oh-my-zsh"
 export NVM_DIR="$HOME/.config/nvm"
 
 # default apps
-export EDITOR="vim"
-export VISUAL="vim"
+export EDITOR="nvim"
+export VISUAL="nvim"
 export TERMINAL="konsole"
 export BROWSER="brave"
 
